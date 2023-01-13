@@ -1,3 +1,32 @@
 /* Notes for styling */
 
+* {
+    /* Future note: header, hero, and footer have this background--overall background is white */
+    background-color: #1F2937;
+}
 
+body {
+    color: white;
+    font-family: roboto;
+}
+
+/* Header styling */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-link-text {
+    color: white;
+    text-decoration: none;
+    background-color: none;
+    font-size: 18px #e5e7eb;
+}
